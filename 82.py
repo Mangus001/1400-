@@ -7,7 +7,6 @@ else:
     tens = (N // 10) % 10
     units = N % 10
 
-    # Перестановка первой и второй цифр
     new_number = tens * 100 + hundreds * 10 + units
 
     print(f"Число после перестановки первой и второй цифр: {new_number}")
