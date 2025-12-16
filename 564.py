@@ -1,0 +1,6 @@
+scores=list(map(int,input().split()))
+fives=scores.count(5)
+fours=scores.count(4)
+threes=scores.count(3)
+twos=scores.count(2)
+print(fives, fours, threes, twos)
