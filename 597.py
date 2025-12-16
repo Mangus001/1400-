@@ -1,0 +1,6 @@
+nums = list(map(int, input().split()))
+even_sum = sum(x for x in nums if x % 2 == 0)
+odd_sum = sum(x for x in nums if x % 2 != 0)
+even_avg = even_sum / (sum(1 for x in nums if x % 2 == 0) or 1)
+odd_avg = odd_sum / (sum(1 for x in nums if x % 2 != 0) or 1)
+print(even_avg, odd_avg)
