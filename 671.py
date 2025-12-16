@@ -1,0 +1,7 @@
+s = list(map(int, input().split()))
+max_s = max(s)
+min_s = min(s)
+max_count = s.count(max_s)
+min_count = s.count(min_s)
+print(max_count)
+print(min_count)
