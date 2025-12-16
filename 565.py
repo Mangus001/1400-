@@ -1,0 +1,5 @@
+points=list(map(int,input().split()))
+wins=sum(1 for p in points if p==3)
+losses=sum(1 for p in points if p==0)
+ties=sum(1 for p in points if p==1)
+print(wins, losses, ties)
