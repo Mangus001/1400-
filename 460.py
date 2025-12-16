@@ -1,0 +1,3 @@
+def is_strictly_increasing(n):
+    s = str(n)
+    return all(s[i] < s[i+1] for i in range(len(s)-1))
