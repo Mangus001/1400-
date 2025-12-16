@@ -1,12 +1,6 @@
-m = int(input("Введите значение m: "))
-a = float(input("Введите значение a: "))
-b = float(input("Введите значение b: "))
-
-k = random.randint(1, m)
-print(f"Случайное число k: {k}")
-
-print("Случайные числа ni:")
-
-for _ in range(k):
-    ni = a + random.random() * (b - a)
-    print(ni)
+user_guess = int(input("Чет (введите 2) или нечет (введите 1): "))
+computer_choice = random.randint(1, 2)
+if user_guess == computer_choice:
+    print("Вы выиграли!")
+else:
+    print("Вы проиграли!")
