@@ -1,0 +1,5 @@
+n=int(input())
+nums=list(map(float,input().split()))
+pos=sum(1 for x in nums if x>0)
+neg=sum(1 for x in nums if x<0)
+print(neg, pos)
