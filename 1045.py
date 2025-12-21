@@ -1,0 +1,6 @@
+areas = list(map(int, input().split()))
+productivities = list(map(int, input().split()))
+total_wheat = sum(a * p for a, p in zip(areas, productivities))
+average_yield = total_wheat / sum(areas)
+print(total_wheat)
+print(average_yield)
