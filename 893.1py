@@ -1,0 +1,4 @@
+def task1176(grades):
+    fours = sum(1 for x in grades if x == 4)
+    fives = sum(1 for x in grades if x == 5)
+    return fours, fives
