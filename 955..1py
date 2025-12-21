@@ -1,0 +1,11 @@
+arr = [3, 7, 2, 9, 4]
+max_element = max(arr)
+max_index = arr.index(max_element)
+max_excl = max([x for i, x in enumerate(arr) if i != max_index])
+min_element = min(arr)
+min_index = arr.index(min_element)
+min_excl = min([x for i, x in enumerate(arr) if i != min_index])
+max_idx_excl = next(i for i, x in enumerate(arr) if x == max_excl)
+min_idx_excl = next(i for i, x in enumerate(arr) if x == min_excl)
+print(max_element, max_excl, max_index, max_idx_excl)
+print(min_element, min_excl, min_index, min_idx_excl)
