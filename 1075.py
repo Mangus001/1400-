@@ -1,0 +1,5 @@
+a1 = [int(input()) for _ in range(10)]
+a2 = [int(input()) for _ in range(10)]
+sum_arr = [a1[i]+a2[i] for i in range(10)]
+prod_arr = [a1[i]*a2[i] for i in range(10)]
+max_arr = [max(a1[i], a2[i]) for i in range(10)]
