@@ -1,0 +1,5 @@
+sentence = input()
+substring = input()
+print(sentence.count('ро'))
+print(sentence.count(substring))
+print(sentence.count(input()))
