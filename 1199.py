@@ -1,0 +1,5 @@
+s = input()
+old_substring = input()
+new_substring = input()
+s = s.replace(old_substring, new_substring)
+print(s)
