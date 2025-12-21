@@ -1,0 +1,5 @@
+arr = [int(input()) for _ in range(20)]
+pos_arr = [x if x > 0 else 0 for x in arr]
+nonpos_arr = [x if x <= 0 else 0 for x in arr]
+pos_filtered = [x for x in arr if x > 0]
+nonpos_filtered = [x for x in arr if x <= 0]
