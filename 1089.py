@@ -1,0 +1,7 @@
+city1 = input()
+city2 = input()
+city3 = input()
+longest = max(city1, city2, city3, key=len)
+shortest = min(city1, city2, city3, key=len)
+print("Самое длинное:", longest)
+print("Самое короткое:", shortest)
