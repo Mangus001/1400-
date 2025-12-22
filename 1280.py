@@ -1,0 +1,6 @@
+sentence = input()
+words = sentence.split()
+count_n = sum(1 for w in words if w.startswith('н'))
+count_r = sum(1 for w in words if w.endswith('р'))
+print(count_n)
+print(count_r)
