@@ -1,4 +1,4 @@
-ine = input()
+line = input()
 desired_length = int(input())
 words = line.split()
 total_spaces = desired_length - sum(len(w) for w in words)
