@@ -7,7 +7,6 @@ for f, p in phonebook:
         found=True
 if not found:
     print("Нет")
-# обратная проверка
 found_name = None
 for f, p in phonebook:
     if p == search_phone:
