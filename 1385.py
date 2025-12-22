@@ -1,13 +1,8 @@
-def is_prime(n):
-    if n < 2:
-        return False
-    for i in range(2, int(math.sqrt(n)) + 1):
-        if n % i == 0:
-            return False
-    return True
+def factorial(n):
+    result = 1
+    for i in range(2, n + 1):
+        result *= i
+    return result
 
-twins = []
-for n in range(3, 200):
-    if is_prime(n) and is_prime(n + 2):
-        twins.append((n, n + 2))
-print("Пары близнецов:", twins)
+n = 5
+print(f"{n}! =", factorial(n))
