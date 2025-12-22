@@ -4,8 +4,8 @@ num2 = 377
 def max_digit_info(n):
     s = str(n)
     max_digit = max(s)
-    index_from_start = s.index(max_digit)  # позиция с начала
-    index_from_end = len(s) - 1 - s.rindex(max_digit)  # с конца
+    index_from_start = s.index(max_digit) 
+    index_from_end = len(s) - 1 - s.rindex(max_digit) 
     return max_digit, index_from_start, index_from_end
 
 max_digit1, start_pos1, end_pos1 = max_digit_info(num1)
