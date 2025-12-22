@@ -1,3 +1,7 @@
+countries = {
+    'Россия': 'Москва',
+    'Германия': 'Берлин'
+}
 def get_capital(country):
     return countries.get(country, 'Страна не найдена')
 
